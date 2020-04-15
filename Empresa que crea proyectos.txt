@@ -1,0 +1,71 @@
+
+
+group: "Empresa que crea proyectos"
+
+
+Clientes = { idcliente nombre apellido telefono direccion 
+1 Juan Velez 3918714 "Carrera 39 # 55-17" 
+2 Maria Gomez 7389287 "Calle 53 # 46-47" 
+3 Ana Ruiz 8927463 "Calle 11s # 50-29" 
+4 Andres Tobon 8294837  "Carrera 65 # 16ª-43" 
+5 Luis Montoya 8394029 "Calle 10 No. 9 - 78"
+6 Alejandro Lopez 9382028  "Carrera 56A No. 51 - 81" 
+7 Andres Cano 7659870  "Carrera 22 No. 17-31" 
+8 Natalia Gomez 3136789 "Carrera 54 No. 68 - 80 " 
+9 Ana Botero 3025986 "Calle 59 No. 27 - 35" 
+10 Simon Bernal 3579536 "Carrera 8  No. 20 - 59" 
+}
+
+
+
+Colaboradores = { idcolaborador telefono direccion banco Numdecuenta 
+1 3967814 "Carrera 10 # 55-17" "Bancolombia" 100000001
+2 7325787 "Calle 40a # 46-47" "Bancolombia"	100000002
+3 4647463 "Calle 18s # 50-29" "Banco de Bogota"	100000003
+4 4894837  "Carrera 87 # 16ª-43" "Bancolombia"	100000004
+5 6304029 "Calle 73 No. 9 - 78" "Davivienda"	100000005
+6 9202028  "Carrera 90A No. 51 - 81" "Banco de Bogota"	100000006
+7 3019870  "Carrera 127 No. 17-31"  "Bancolombia"	100000007
+8 4926789 "Carrera 129 No. 68 - 80 " "Davivienda"	100000008
+9 5635986 "Calle 137 No. 27 - 35"  "Bancolombia"	100000009
+10 3279536 "Carrera 8  No. 20 - 59" "Bancolombia" 100000010
+}
+
+Proyectos = { idproyecto fechaincio fechafin costo idcliente 
+1 11-13-2018 10-21-2019 100000 1 
+2 10-3-2018 2-21-2020 200000 6
+3 6-9-2018 6-17-2019 300000 3
+4 5-15-2018 8-12-2019 500000  5
+5 3-24-2019 10-15-2019 600000 10
+6 9-28-2018 5-19-2019 90000 7
+7 12-16-2018 7-22-2019 1000000  4 
+8 8-7-2018 2-8-2020 210400 8
+9 7-13-2018 7-15-2019 140900 2
+10 10-25-2018 7-20-2019 550000 9
+}
+
+Pagos = { idcolaborador Numerodepago Fechadepago Cantidad  
+10 1 11-13-2018 103999 
+4 2 10-25-2018 200900	
+5 3 10-3-2018 193890	
+3 4  8-12-2019 190765	
+7 5 10-15-2019 205999	
+6 6  9-28-2018 300589	
+2 7  5-15-2018 400582	
+8 8 8-7-2018 910394	
+9 9 6-17-2019 1000728 
+1 10 7-20-2019 892874 
+}
+
+Colaborador_Participa_Proyecto ={ idproyecto idcolaborador
+1 10
+2 4
+3 3
+4 9
+5 1
+6 5
+7 6
+8 2
+9 7
+10 8
+}
